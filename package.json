@@ -1,5 +1,5 @@
 {
-  "name": "ts-package-bootstrap",
+  "name": "test-package",
   "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -26,9 +26,15 @@
     "release": "semantic-release"
   },
   "keywords": [],
-  "author": "",
+  "author": "Benjamin Rae <benjaminrae93@gmail.com>",
+  "repository": "https://github.com/benjaminrae/test-package.git",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/release-notes-generator": "^12.1.0",
     "semantic-release": "^23.0.2",
     "terser": "^5.28.1",
     "tsup": "^8.0.2",
